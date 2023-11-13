@@ -1,0 +1,3 @@
+[submodule "src/Inside-Enigma"]
+	path = src/Inside-Enigma
+	url = https://github.com/MoskitoSantana/Inside-Enigma.git

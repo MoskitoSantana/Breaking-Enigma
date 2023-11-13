@@ -8,8 +8,8 @@
 #include <string>
 #include <string_view>
 #include <thread>
-#include "../enigma/enigma.hpp"
-#include "../enigma/generator.hpp"
+#include "../Inside-Enigma/src/enigma/enigma.hpp"
+#include "../Inside-Enigma/src/enigma/generator.hpp"
 #include <toml.hpp>
 #include <map>
 
