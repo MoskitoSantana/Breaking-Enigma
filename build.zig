@@ -14,11 +14,11 @@ pub fn build(b: *std.build.Builder) void {
     bombelib.force_pic = true;
     bombelib.addCSourceFiles(&.{
         "src/bombe/bombe.cpp",
-        "src/enigma/enigma.cpp",
-        "src/enigma/generator.cpp",
-        "src/enigma/plugboard.cpp",
-        "src/enigma/reflector.cpp",
-        "src/enigma/rotor.cpp",
+        "src/Inside-Enigma/src/enigma/enigma.cpp",
+        "src/Inside-Enigma/src/enigma/generator.cpp",
+        "src/Inside-Enigma/src/enigma/plugboard.cpp",
+        "src/Inside-Enigma/src/enigma/reflector.cpp",
+        "src/Inside-Enigma/src/enigma/rotor.cpp",
     }, &.{
         "-std=c++11",
         "-Wall",
